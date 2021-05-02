@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"example.com/blockchain"
+	block "github.com/Deepok101/DeepCoin/pkg/blockchain"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 		io.WriteString(w, "Hello, world!\n")
 	}
 
-	blockchain.HelloWorld()
+	block.HelloWorld()
 
 	http.HandleFunc("/hello", helloHandler)
 	log.Println("Listing for requests at http://localhost:8000/hello")
