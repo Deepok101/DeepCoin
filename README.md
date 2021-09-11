@@ -1,3 +1,3 @@
 # DeepCoin
 
-MY NEW COIN
+My new crypto coin!
